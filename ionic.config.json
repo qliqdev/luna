@@ -1,0 +1,7 @@
+{
+  "name": "LunaID-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
