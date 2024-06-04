@@ -14,7 +14,14 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <img [src]="bestShot">
   </div>
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-button color="primary" expand="full" [disabled]="!init" (click)="start()">
+      <ion-spinner slot="start" *ngIf="!init else startRef"></ion-spinner>
+      <ng-template #startRef>Start</ng-template>
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>
