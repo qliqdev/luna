@@ -2,7 +2,7 @@
 1. NodeJs 20+
 
 ### Run comands
-1. `cpm i -g pnpm`
+1. `npm i -g pnpm`
 2. `pnpm i -g @angular/cli`
 3. `pnpm i -g @ionic/cli`
 4. `pnpm i -g @capacitor/cli`
